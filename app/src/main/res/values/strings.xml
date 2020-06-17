@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Interest Calculator</string>
+    <string name="payback_date">Payback Date</string>
+    <string name="duration">Duration</string>
+    <string name="amount">Amount</string>
+    <string name="calculate">Calculate</string>
+</resources>
