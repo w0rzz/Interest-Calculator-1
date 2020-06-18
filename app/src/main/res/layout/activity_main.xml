@@ -39,21 +39,18 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/EditTv1"
         app:layout_constraintVertical_bias="0.060000002" />
-
-    <EditText
-        android:id="@+id/EditTv3"
+    
+    <Textview
+        android:id="@+id/tv"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@drawable/et"
         android:gravity="center"
-        android:hint="@string/payback_date"
-        android:textColor="#0B2ECF"
-        android:textColorHint="#0B2ECF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/EditTv2"
-        app:layout_constraintVertical_bias="0.100000024" />
+        app:layout_constraintTop_toBottomOf="@id/EditTv1"
+        app:layout_constraintVertical_bias="0.060000002" />
+    
 
     <Button
         android:id="@+id/ButtonID"
@@ -64,6 +61,7 @@
         android:text="@string/calculate"
         android:textAllCaps="false"
         android:textColor="#cef"
+        android:onClick="buttonClicked"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/EditTv3" />
